@@ -7,6 +7,8 @@ public with sharing class AccountController {
         !Utils.validaCPF(account.AccountNumber)
       ) {
         account.addError('Número do cliente é inválido');
+
+        
       }
     }
 
